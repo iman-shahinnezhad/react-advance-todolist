@@ -1,56 +1,44 @@
-# Create React App example with styled-components & TypeScript
+## Getting Started
 
-The main difference between this and the non-typescript example is that you need to add the following path config to your tsconfig:
-
-```json
-"paths": {
-  "@mui/styled-engine": ["./node_modules/@mui/styled-engine-sc"]
-}
+Clone this repository on your local machine.
 ```
 
-and install @types/styled-components:
-
-```sh
-npm install --save-dev @types/styled-components
+Run the following commands into the project folder to install project dependencies.
 ```
-
-Alternatively, to skip this configuration, you can set `skipLibCheck: true` in your tsconfig.
-
-## How to use
-
-Download the example [or clone the repo](https://github.com/mui/material-ui):
-
-<!-- #default-branch-switch -->
-
-```sh
-curl https://codeload.github.com/mui/material-ui/tar.gz/master | tar -xz --strip=2 material-ui-master/examples/create-react-app-with-styled-components-typescript
-cd create-react-app-with-styled-components-typescript
-```
-
-Install it and run:
-
-```sh
+npm init
 npm install
-npm start
 ```
 
-## CodeSandbox
 
-<!-- #default-branch-switch -->
+## Available Scripts
 
-Note that CodeSandbox is not supporting react-app-rewired, yet you can [still see the code](https://codesandbox.io/s/github/mui/material-ui/tree/master/examples/create-react-app-with-styled-components-typescript).
+In the project directory, you can run:
 
-The following link leverages this demo: https://mui.com/guides/interoperability/#change-the-default-styled-engine with Parcel's alias feature within the `package.json`
+### `npm start`
 
-[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/styled-components-interoperability-w9z9d)
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## The idea behind the example
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-This example demonstrates how you can setup [Create React App](https://github.com/facebookincubator/create-react-app) with [styled-components](https://styled-components.com/) as a style engine for your application using TypeScript.
+### `npm test`
 
-## What's next?
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-<!-- #default-branch-switch -->
+### `npm run build`
 
-You now have a working example project.
-You can head back to the documentation, continuing browsing it from the [templates](https://mui.com/material-ui/getting-started/templates/) section.
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
+
+
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+

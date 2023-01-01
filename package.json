@@ -1,27 +1,23 @@
 {
-  "name": "create-react-app-with-styled-components-typescript",
-  "version": "5.0.0",
+  "name": "react-advance-todolist",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@mui/icons-material": "^5.10.16",
-    "@mui/lab": "latest",
-    "@mui/material": "latest",
-    "@mui/styled-engine-sc": "latest",
-    "@testing-library/jest-dom": "latest",
-    "@testing-library/react": "latest",
-    "@testing-library/user-event": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "react-router-dom": "^6.4.5",
-    "react-scripts": "latest",
-    "styled-components": "latest"
+    "bootstrap": "^4.3.1",
+    "lodash": "^4.17.21",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "uuid": "^3.3.2"
   },
   "scripts": {
-    "tsc": "./node_modules/.bin/tsc",
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [
@@ -34,14 +30,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@craco/craco": "latest",
-    "@types/node": "latest",
-    "@types/react": "latest",
-    "@types/react-dom": "latest",
-    "@types/styled-components": "latest",
-    "craco-alias": "^3.0.1",
-    "typescript": "latest"
   }
 }
