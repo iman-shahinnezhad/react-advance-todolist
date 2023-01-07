@@ -27,7 +27,7 @@ export default class TodoInput extends Component {
                         type="submit"
                         className={`btn btn-block mt-4 ${editItem ? 'btn-success' : 'btn-dark'}`}
                     >
-                        {editItem ? 'Edit task' : 'Add new task'}
+                        {editItem ? 'Edit task' : 'Add new'}
                     </button>
                 </form>
             </div>
